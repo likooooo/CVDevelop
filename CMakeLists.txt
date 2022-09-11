@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 set (PROJECT_DIR 
     ${CMAKE_SOURCE_DIR} 
 )
+set (RESOURCE_DIR
+    ${PROJECT_DIR}/resource
+)
 
 set(RELEASE_PATH    ${PROJECT_DIR}/build/bin/${Path_Suffix})
 set(LIB_Path        ${PROJECT_DIR}/build/lib/${Path_Suffix})
